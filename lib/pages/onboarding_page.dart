@@ -124,12 +124,20 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   ),
                 ],
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.end,
+              Stack(
+                alignment: AlignmentDirectional.bottomEnd,
                 children: [
-                  Image.asset(
-                    'assets/images/woman_selfie.png',
-                    height: 300,
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Image.asset(
+                        'assets/images/woman_selfie.png',
+                        height: 300,
+                      ),
+                      Container(
+                        height: 380,
+                      )
+                    ],
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 32),

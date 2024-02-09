@@ -25,13 +25,13 @@ class LoginPage extends StatelessWidget {
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(40),
                 ),
-                height: 500,
+                height: 520,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Image.asset(
                       'assets/images/cash_rocket.png',
-                      height: 48,
+                      height: 80,
                     ),
                     Text(
                       'Cash Rocket',
