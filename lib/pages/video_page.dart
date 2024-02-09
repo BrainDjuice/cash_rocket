@@ -94,15 +94,11 @@ class VideoPage extends StatelessWidget {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFFFE9F9D),
-                          Color(0xFFFF758C),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/video_bg1.png'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -110,7 +106,7 @@ class VideoPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assets/images/chartboost.png',
+                            'assets/images/chart.png',
                             height: 40,
                           ),
                           SizedBox(height: 4),
@@ -136,15 +132,11 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFFDA8DBB),
-                          Color(0xFF8F5CE5),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/video_bg2.png'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -178,15 +170,11 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFF2DB5EA),
-                          Color(0xFF2B8AE8),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/video_bg3.png'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -220,15 +208,11 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFFFFC05B),
-                          Color(0xFFFF8D47),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/video_bg4.png'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -236,7 +220,7 @@ class VideoPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assets/images/ironsource.png',
+                            'assets/images/iron.png',
                             height: 40,
                           ),
                           SizedBox(height: 4),
@@ -262,15 +246,11 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFFDA8DBB),
-                          Color(0xFF8F5CE5),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/video_bg2.png'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -278,7 +258,7 @@ class VideoPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assets/images/applovin.png',
+                            'assets/images/app.png',
                             height: 40,
                           ),
                           SizedBox(height: 4),
@@ -304,23 +284,18 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFFFE9F9D),
-                          Color(0xFFFF758C),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
+                        borderRadius: BorderRadius.circular(20),
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/video_bg1.png'),
+                          fit: BoxFit.cover,
+                        )),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assets/images/startapp.png',
+                            'assets/images/sa.png',
                             height: 40,
                           ),
                           SizedBox(height: 4),
@@ -346,23 +321,18 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFFFFC05B),
-                          Color(0xFFFF8D47),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
+                        borderRadius: BorderRadius.circular(20),
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/video_bg4.png'),
+                          fit: BoxFit.cover,
+                        )),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assets/images/ironsource.png',
+                            'assets/images/am.png',
                             height: 40,
                           ),
                           SizedBox(height: 4),
@@ -388,23 +358,18 @@ class VideoPage extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color(0xFF2DB5EA),
-                          Color(0xFF2B8AE8),
-                        ],
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                      ),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
+                        borderRadius: BorderRadius.circular(20),
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/video_bg3.png'),
+                          fit: BoxFit.cover,
+                        )),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assets/images/ironsource.png',
+                            'assets/images/an.png',
                             height: 40,
                           ),
                           SizedBox(height: 4),

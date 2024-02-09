@@ -138,11 +138,7 @@ class HomePage extends StatelessWidget {
                                 CircleAvatar(
                                   backgroundColor: Colors.white,
                                   radius: 24,
-                                  child: Icon(
-                                    Icons.speed,
-                                    color: Color(0xFFFF485E),
-                                    size: 32,
-                                  ),
+                                  child: Image.asset('assets/images/meter.png'),
                                 ),
                                 Text(
                                   'Collect daily rewards now',
@@ -185,6 +181,26 @@ class HomePage extends StatelessWidget {
                   child: ListView(
                     scrollDirection: Axis.horizontal,
                     children: [
+                      Container(
+                        width: 340,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage('assets/images/banner1.png'),
+                              fit: BoxFit.fill,
+                            ),
+                            borderRadius: BorderRadius.circular(20)),
+                      ),
+                      SizedBox(width: 16),
+                      Container(
+                        width: 340,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage('assets/images/banner2.png'),
+                              fit: BoxFit.fill,
+                            ),
+                            borderRadius: BorderRadius.circular(20)),
+                      ),
+                      SizedBox(width: 16),
                       Container(
                         width: 320,
                         decoration: BoxDecoration(
@@ -289,13 +305,17 @@ class HomePage extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              CircleAvatar(
-                                backgroundColor: Color(0xFFFF485E),
-                                radius: 40,
-                                child: Icon(
-                                  FontAwesomeIcons.gift,
-                                  color: Colors.white,
-                                  size: 40,
+                              Container(
+                                width: 80,
+                                height: 80,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      'assets/images/offer.png',
+                                    ),
+                                    fit: BoxFit.fill,
+                                  ),
                                 ),
                               ),
                               SizedBox(height: 4),
@@ -313,13 +333,17 @@ class HomePage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                CircleAvatar(
-                                  backgroundColor: Color(0xFFA253FA),
-                                  radius: 40,
-                                  child: Icon(
-                                    FontAwesomeIcons.play,
-                                    color: Colors.white,
-                                    size: 40,
+                                Container(
+                                  width: 80,
+                                  height: 80,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    image: DecorationImage(
+                                      image: AssetImage(
+                                        'assets/images/videos.png',
+                                      ),
+                                      fit: BoxFit.fill,
+                                    ),
                                   ),
                                 ),
                                 SizedBox(height: 4),
@@ -338,13 +362,17 @@ class HomePage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                CircleAvatar(
-                                  backgroundColor: Color(0xFFFD9B1E),
-                                  radius: 40,
-                                  child: Icon(
-                                    FontAwesomeIcons.fan,
-                                    color: Colors.white,
-                                    size: 40,
+                                Container(
+                                  width: 80,
+                                  height: 80,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    image: DecorationImage(
+                                      image: AssetImage(
+                                        'assets/images/wheel.png',
+                                      ),
+                                      fit: BoxFit.fill,
+                                    ),
                                   ),
                                 ),
                                 SizedBox(height: 4),
@@ -363,13 +391,17 @@ class HomePage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                CircleAvatar(
-                                  backgroundColor: Colors.blue,
-                                  radius: 40,
-                                  child: Icon(
-                                    FontAwesomeIcons.peopleGroup,
-                                    color: Colors.white,
-                                    size: 40,
+                                Container(
+                                  width: 80,
+                                  height: 80,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    image: DecorationImage(
+                                      image: AssetImage(
+                                        'assets/images/refer.png',
+                                      ),
+                                      fit: BoxFit.fill,
+                                    ),
                                   ),
                                 ),
                                 SizedBox(height: 4),
@@ -380,13 +412,17 @@ class HomePage extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              CircleAvatar(
-                                backgroundColor: Colors.blue,
-                                radius: 40,
-                                child: Icon(
-                                  Icons.card_giftcard,
-                                  color: Colors.white,
-                                  size: 40,
+                              Container(
+                                width: 80,
+                                height: 80,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      'assets/images/reedem.png',
+                                    ),
+                                    fit: BoxFit.fill,
+                                  ),
                                 ),
                               ),
                               SizedBox(height: 4),
@@ -396,14 +432,19 @@ class HomePage extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              CircleAvatar(
-                                  backgroundColor: Colors.orangeAccent,
-                                  radius: 40,
-                                  child: Icon(
-                                    FontAwesomeIcons.ticketSimple,
-                                    color: Colors.white,
-                                    size: 40,
-                                  )),
+                              Container(
+                                width: 80,
+                                height: 80,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      'assets/images/quiz.png',
+                                    ),
+                                    fit: BoxFit.fill,
+                                  ),
+                                ),
+                              ),
                               SizedBox(height: 4),
                               Text('Quiz'),
                             ],
@@ -411,13 +452,17 @@ class HomePage extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              CircleAvatar(
-                                backgroundColor: Color(0xFFFF485E),
-                                radius: 40,
-                                child: Icon(
-                                  FontAwesomeIcons.youtube,
-                                  color: Colors.white,
-                                  size: 40,
+                              Container(
+                                width: 80,
+                                height: 80,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      'assets/images/tutorial.png',
+                                    ),
+                                    fit: BoxFit.fill,
+                                  ),
                                 ),
                               ),
                               SizedBox(height: 4),
@@ -427,13 +472,17 @@ class HomePage extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              CircleAvatar(
-                                backgroundColor: Color(0xFFA253FA),
-                                radius: 40,
-                                child: Icon(
-                                  FontAwesomeIcons.shareNodes,
-                                  color: Colors.white,
-                                  size: 40,
+                              Container(
+                                width: 80,
+                                height: 80,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      'assets/images/share.png',
+                                    ),
+                                    fit: BoxFit.fill,
+                                  ),
                                 ),
                               ),
                               SizedBox(height: 4),
